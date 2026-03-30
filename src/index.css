@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+.manrope-font {
+  font-family: "Manrope", sans-serif;
+}
