@@ -14,7 +14,7 @@ const ProductsCard = ({ product, carts, setCarts }) => {
       key={product.id}
       className="relative bg-white border border-slate-100 rounded-3xl p-8 shadow-sm hover:shadow-md transition-shadow"
     >
-      {/* Dynamic Tag */}
+   
       <span className="absolute top-4 right-4 bg-orange-100 text-orange-600 text-[10px] font-bold px-3 py-1 rounded-full uppercase">
         {product.tag}
       </span>
@@ -38,7 +38,6 @@ const ProductsCard = ({ product, carts, setCarts }) => {
         </span>
       </div>
 
-      {/* Dynamic Features List */}
       <ul className="space-y-3 mb-8 text-sm text-slate-600">
         {product.features.map((feature, index) => (
           <li key={index} className="flex items-center gap-2">

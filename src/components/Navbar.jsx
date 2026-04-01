@@ -44,13 +44,14 @@ const Navbar = ({ carts }) => {
             </ul>
           </div>
 
-          {/* Logo */}
-          <a className="text-3xl font-bold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
+          <a
+            href=""
+            className="text-3xl font-bold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent"
+          >
             DigiTools
           </a>
         </div>
 
-        {/* Desktop Menu */}
         <ul className="hidden lg:flex gap-8 text-gray-700 font-medium">
           <li>
             <a className="hover:text-purple-600 transition">Products</a>
@@ -66,9 +67,7 @@ const Navbar = ({ carts }) => {
           </li>
         </ul>
 
-        {/* Right Side */}
         <div className="flex items-center gap-3 sm:gap-4">
-          {/* Cart */}
           <button className="relative text-gray-700  transition">
             <FontAwesomeIcon
               icon={faCartArrowDown}
@@ -79,12 +78,10 @@ const Navbar = ({ carts }) => {
             </span>
           </button>
 
-          {/* Login */}
           <a className="hidden sm:inline-block text-gray-700  font-medium transition">
             Login
           </a>
 
-          {/* Button */}
           <a className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full text-sm sm:text-base px-3 sm:px-5">
             Get Started
           </a>
