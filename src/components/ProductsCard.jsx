@@ -51,7 +51,7 @@ const ProductsCard = ({ product, carts, setCarts }) => {
         onClick={handleBuyProduct}
         className="w-full py-3 bg-gradient-to-r from-[#6039F6] to-[#A31CFB] text-white font-bold rounded-2xl hover:bg-[#7a24db] transition-colors"
       >
-        {isBuy ? "Added to cart" : "Buy Now"}
+        {isBuy ? "✓ Added to cart" : "Buy Now"}
       </button>
     </div>
   );

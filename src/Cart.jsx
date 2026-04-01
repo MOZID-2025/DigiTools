@@ -1,3 +1,5 @@
+import { faCartArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { toast } from "react-toastify";
 
@@ -67,7 +69,11 @@ const Cart = ({ carts, setCarts }) => {
         </div>
       ) : (
         <div className="text-center py-10 text-slate-400">
-          Your cart is empty
+          <FontAwesomeIcon
+            icon={faCartArrowDown}
+            className="text-5xl sm:text-6xl md:text-7xl mb-5"
+          />
+          <h2>Your cart is empty</h2>
         </div>
       )}
     </div>
