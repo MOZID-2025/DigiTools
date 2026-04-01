@@ -46,7 +46,7 @@ const Banner = () => {
           <div className="flex-1 w-full order-1 lg:order-2">
             <div className="relative mx-auto max-w-[400px] sm:max-w-[500px] lg:max-w-full">
               <img
-                src="/src/assets/banner.png"
+                src="/banner.png"
                 alt="Digital Workflow Visualization"
                 className="w-full h-auto object-contain rounded-2xl"
               />
