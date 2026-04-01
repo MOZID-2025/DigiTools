@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import StateSection from "./components/StateSection";
 import Products from "./components/Products";
-import Cart from "./Cart";
+import Cart from "./components/Cart";
 import StepsSection from "./components/StepsSection";
 import PriceSection from "./components/PriceSection";
 import CTASection from "./components/CTASection";

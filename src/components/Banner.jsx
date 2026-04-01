@@ -5,7 +5,6 @@ const Banner = () => {
     <div className="w-full bg-white px-4">
       <div className="max-w-[1280px] mx-auto mt-10 md:mt-16 lg:mt-20">
         <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-8">
-          {/* Left Content */}
           <div className="flex-1 space-y-5 text-center lg:text-left order-2 lg:order-1">
             <div className="inline-flex items-center rounded-full bg-purple-50 px-3 py-1 text-xs sm:text-sm font-medium text-purple-600 ring-1 ring-inset ring-purple-200">
               <span className="mr-2 h-2 w-2 rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] animate-pulse"></span>
@@ -44,7 +43,6 @@ const Banner = () => {
             </div>
           </div>
 
-          {/* Right Image */}
           <div className="flex-1 w-full order-1 lg:order-2">
             <div className="relative mx-auto max-w-[400px] sm:max-w-[500px] lg:max-w-full">
               <img
